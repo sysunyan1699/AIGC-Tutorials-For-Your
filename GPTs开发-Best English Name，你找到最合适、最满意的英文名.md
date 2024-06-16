@@ -4,9 +4,9 @@
 
 
 # Best English Name 是什么
-![1.png](images%2FGPTs%E5%BC%80%E5%8F%91-Best-English-Name%EF%BC%8C%E4%BD%A0%E6%89%BE%E5%88%B0%E6%9C%80%E5%90%88%E9%80%82%E3%80%81%E6%9C%80%E6%BB%A1%E6%84%8F%E7%9A%84%E8%8B%B1%E6%96%87%E5%90%8D%2F1.png){% asset_img 1.png %}
+![1.png](images%2FGPTs%E5%BC%80%E5%8F%91-Best-English-Name%EF%BC%8C%E4%BD%A0%E6%89%BE%E5%88%B0%E6%9C%80%E5%90%88%E9%80%82%E3%80%81%E6%9C%80%E6%BB%A1%E6%84%8F%E7%9A%84%E8%8B%B1%E6%96%87%E5%90%8D%2F1.png)
 Best English Name 是一个起名助手，它可以帮助你找到气质相符且满足各种要求的英文名，并且会对英文名有详细且深入的解释，让你充分了解自己的英文名。
-![2.png](images%2FGPTs%E5%BC%80%E5%8F%91-Best-English-Name%EF%BC%8C%E4%BD%A0%E6%89%BE%E5%88%B0%E6%9C%80%E5%90%88%E9%80%82%E3%80%81%E6%9C%80%E6%BB%A1%E6%84%8F%E7%9A%84%E8%8B%B1%E6%96%87%E5%90%8D%2F2.png){% asset_img 2.png %}
+![2.png](images%2FGPTs%E5%BC%80%E5%8F%91-Best-English-Name%EF%BC%8C%E4%BD%A0%E6%89%BE%E5%88%B0%E6%9C%80%E5%90%88%E9%80%82%E3%80%81%E6%9C%80%E6%BB%A1%E6%84%8F%E7%9A%84%E8%8B%B1%E6%96%87%E5%90%8D%2F2.png)
 这个气质可以是你通过图片上传告诉chatGPT, 也可以自己描述给chatGPT,同时你也可以有其他定制化要求，包括但不限于
 1. 和中文读音/拼写类似
 2. 特定长度

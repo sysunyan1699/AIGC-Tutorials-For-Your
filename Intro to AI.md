@@ -1,6 +1,6 @@
 在学习AI 过程中，发现专业名词相当多，初学者可能会感到而混乱，所以本篇内容是对该领域内的一些“大词”进行简单介绍， 做一些概念扫盲， 以保证在接下来的学习中心中有框架。 正式内容会按照下图框架介绍
 
-![1.png](images%2FIntro-to-AI%2F1.png){% asset_img 1.png %}
+![1.png](images%2FIntro-to-AI%2F1.png)
 
 ## 1. 人工智能 (Artificial Intelligence)
 人工智能（Artificial Intelligence，简称AI）是一门研究和开发用于模拟、扩展和扩展人类智能的理论、方法、技术及应用系统的科学技术。

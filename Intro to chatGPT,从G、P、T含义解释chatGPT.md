@@ -1,7 +1,7 @@
 
 ChatGPT是由OpenAI开发的，一个能够理解和生成自然语言的人工智能（AI）模型，可以和用户进行互动并生成类似人类的对话。
 
-![1.png](images%2FIntro-to-chatGPT-%E4%BB%8EG%E3%80%81P%E3%80%81T%E5%90%AB%E4%B9%89%E8%A7%A3%E9%87%8AchatGPT%2F1.png){% asset_img 1.png %}
+![1.png](images%2FIntro-to-chatGPT-%E4%BB%8EG%E3%80%81P%E3%80%81T%E5%90%AB%E4%B9%89%E8%A7%A3%E9%87%8AchatGPT%2F1.png)
 
 # 1. chatGPT 的发展历程
 ChatGPT模型的发展历程是一个不断演进和改进的过程。以下是关键的时间节点和发展阶段：

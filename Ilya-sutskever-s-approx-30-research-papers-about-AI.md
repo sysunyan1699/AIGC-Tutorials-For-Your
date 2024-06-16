@@ -1,7 +1,7 @@
 
 之前无意中刷到这个[twitter](https://x.com/keshavchan/status/1787861946173186062?utm_source=www.mattprd.com&utm_medium=referral&utm_campaign=openai-cofounder-the-27-papers-to-read-to-know-90-about-ai),  有点好奇这30篇paper 到底讲了啥，学完到底能知道什么，所以决定读一读。
 
-![1.png](images%2FIlya%20sutskever%27s%20approx%2030%20research%20papers%20about%20AI%2F1.png){% asset_img 1.png %}
+![1.png](images%2FIlya%20sutskever%27s%20approx%2030%20research%20papers%20about%20AI%2F1.png)
 
 
 # 如何读

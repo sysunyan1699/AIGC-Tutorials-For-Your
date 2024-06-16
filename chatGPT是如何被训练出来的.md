@@ -4,7 +4,7 @@
 
 #  0. GPT训练的四个阶段
 
-![1.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F1.png){% asset_img 1.png %}
+![1.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F1.png)
 
 目前我们能够使用到的chatGPT 都是RLFH 模型，该模型的训练可以分为3个阶段
 1. pretraining  预训练
@@ -22,7 +22,7 @@ pre-trainin 预训练阶段是一切的起点，它需要最多的数据，最�
 3. **通用性**：预训练模型具有通用性，因为它并没有针对特定任务进行优化，而是广泛地学习各种语言模式。这种通用性使得模型可以适应多种下游任务。
 ## 1.1 Dataset
 
-![2.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F2.png){% asset_img 2.png %}
+![2.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F2.png)
 预训练使用的大规模数据集包含了来自互联网的各种文本，这些数据集规模庞大，不过目前chatGPT 没有公开具体的数据， 上图是meta 开源的LLaMA的训练数据集
 
 - 67.0%的Common Crawl，也就是常规网络爬取的数据集，这部分数据集的特点是内容涉及的类型很全面，但是因为内容可能是任何人写的，质量一般偏低，也会包含大量不相关，例如广告、导航条、版权声明等。
@@ -45,7 +45,7 @@ pre-trainin 预训练阶段是一切的起点，它需要最多的数据，最�
 
 Tokenization是将文本拆分成较小的单元（称为tokens）的过程。这些tokens可以是单词、子词、字符或其他文本片段，，并将其映射到特定的标记或整数的过程。
 
-![3.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F3.png){% asset_img 3.png %}
+![3.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F3.png)
 从图中可以看出，GPT 并不是直接使用从互联网上获取的原始数据进行训练， 而是先讲数据分解成token,再将token 转化成整数数列。最终进入到神经网络/Transformer 进行训练的是这些整数数列。
 
 以下Tokenization的步骤：
@@ -85,7 +85,7 @@ token 在自然语言处理（NLP）中扮演着核心角色，尤其是在训�
 
 预训练采用无监督学习方法，即不需要人为标注的数据。模型通过预测文本中的下一词（或下一个token）来学习语言结构和模式。
 
-![4.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F4.png){% asset_img 4.png %}
+![4.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F4.png)
 
 数据会以批次为单位， 输入到Transformer中进行训练，其训练过程就是不断让模型根据前面已经的内容（黄色部分），去猜测当前token(绿色部分)的下一个词是什么（红色部分）， 如果猜测的结果和实际情况不一致，则要调整模型，直至结果一致。
 
@@ -93,7 +93,7 @@ token 在自然语言处理（NLP）中扮演着核心角色，尤其是在训�
 
 如果猜错了，那距离正确答案又多远，这就是损失函数的概念。低损失意味着更高的预测正确概率
 
-![5.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F5.png){% asset_img 5.png %}
+![5.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F5.png)
 
 ## 1.3 base model
 
@@ -102,7 +102,7 @@ token 在自然语言处理（NLP）中扮演着核心角色，尤其是在训�
 ### 1.3.1 base model are not assistant
 这句话的含义是base model 并不能回答问题。
 预训练阶段得到的base model  只是一个文档生成器， 只会根据你输入的内容去预测下一个单词，并不会回答你的问题，所以还起不到assistant 助手 的作用。 如图中，base model 并不会按照你的要求写诗，知识生成相似的内容。
-![6.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F6.png){% asset_img 6.png %}
+![6.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F6.png)
 
 what is the capital of France?
 
@@ -118,7 +118,7 @@ what is the currency of France?
 **原理**：模型在大规模语料上进行预训练，学到了广泛的语言知识和基本任务能力。在新任务上，通过提供少量的示例（输入-输出对），模型可以从中推断出该任务的模式和要求。
 
 few-shot 之所以起作用，是把问题伪装成了一个文档中缺失的内容，让base model 通过完成文档的能力把它补全。但是这一过程非常不稳定， 在实践中总体效果一般。
-![7.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F7.png){% asset_img 7.png %}
+![7.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F7.png)
 
 ### 1.4.2 Supervised finetuning
 指在base model 的基础上，使用带有标签的数据集对模型进行进一步训练，以提高其在特定任务上的表现。
@@ -145,14 +145,14 @@ few-shot 之所以起作用，是把问题伪装成了一个文档中缺失的�
 2. **众包平台**：使用众包服务（如Amazon Mechanical Turk）来收集和标注数据。这种方式可以快速且成本相对较低地获得大量标注数据
 3. **合作伙伴**：与学术机构、研究组织或其他公司合作，共享或共同创建数据集。
 
-![8.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F8.png){% asset_img 8.png %}
+![8.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F8.png)
 
 ## 2.2 SFT model
 SFT model 已经是一个可以回答问题的assistant
 
 ## 2.4  Pre-training vs fine tuning
 
-![9.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F9.png){% asset_img 9.png %}
+![9.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F9.png)
 
 以下是预训练（Pre-training）和微调（Fine-tuning）两个阶段的对比表格，从目标、数据集、过程、成本和迭代与改进五个方面进行总结：
 
@@ -174,14 +174,14 @@ Reinforcement Learning from Human Feedback
 
 ### 3.1.1  Dataset- comparisons
 
-![10.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F10.png){% asset_img 10.png %}
+![10.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F10.png)
 
 1. 相同的prompt, SFT model  会给出不同版本的回答，即多个候选答案。目前我们在使用
 2. 人类评估者会对这些候选回答进行比较打分排名，并选择他们认为最合适或最准确的回答。
 3. 模型会根据这些比较结果进行学习，以便对其他问题的多个候选答案的好坏进行预测
 
 ### 3.1.2 RM Training
-![11.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F11.png){% asset_img 11.png %}
+![11.png](images%2FchatGPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BA%E6%9D%A5%E7%9A%84%2F11.png)
 
 从图中可以看出， 提示词+ 结果+ 人类评估者反馈作为关联在一起的数据又被打包到batch中进行训练， 如图，可以理解成一个相同的提示词prompt 有3个不同版本的回答，对应的3个不同的reward(可以理解成是分数)， 训练后模型就可以针对一个prompt 的回答预测出一个人类评估者的打分。
 
