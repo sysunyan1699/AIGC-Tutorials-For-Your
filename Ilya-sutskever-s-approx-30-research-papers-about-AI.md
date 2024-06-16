@@ -14,13 +14,13 @@
 
 [0-神经网络（Neural Networks）](https://github.com/sysunyan1699/AIGC-Tutorials-For-Your/blob/main/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%88Neural-Networks%EF%BC%89.md)
 
-[递归神经网络（Recurrent Neural Networks, RNNs）](obsidian://open?vault=Documents&file=second-brain%2F0-projects%2Filya%2027%E4%BE%BF%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%2F2-%E9%80%92%E5%BD%92%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%88Recurrent%20Neural%20Networks%2C%20RNNs%EF%BC%89)
+[递归神经网络（Recurrent Neural Networks, RNNs）](https://github.com/sysunyan1699/AIGC-Tutorials-For-Your/blob/main/%E9%80%92%E5%BD%92%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%88Recurrent-Neural-Networks-RNNs%EF%BC%89.md)
 
-[The Unreasonable Effectiveness of Recurrent Neural Networks](obsidian://open?vault=Documents&file=second-brain%2F0-projects%2Filya%2027%E4%BE%BF%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%2FThe%20Unreasonable%20Effectiveness%20of%20Recurrent%20Neural%20Networks%E9%80%92%E5%BD%92%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%B8%8D%E5%90%88%E7%90%86%E6%9C%89%E6%95%88%E6%80%A7)
+[The Unreasonable Effectiveness of Recurrent Neural Networks](https://github.com/sysunyan1699/AIGC-Tutorials-For-Your/blob/main/The-Unreasonable-Effectiveness-of-Recurrent-Neural-Networks.md)
 
-[Understanding LSTM Networks](obsidian://open?vault=Documents&file=second-brain%2F0-projects%2Filya%2027%E4%BE%BF%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%2FUnderstanding%20LSTM%20Networks%E4%BA%86%E8%A7%A3%20LSTM%20%E7%BD%91%E7%BB%9C)
+[Understanding LSTM Networks](https://github.com/sysunyan1699/AIGC-Tutorials-For-Your/blob/main/Understanding-LSTM-Networks.md)
 
-[RECURRENT NEURAL NETWORK REGULARIZATION](obsidian://open?vault=Documents&file=second-brain%2F0-projects%2Filya%2027%E4%BE%BF%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%2FRECURRENT%20NEURAL%20NETWORK%20REGULARIZATION%20(RNN%E6%AD%A3%E5%88%99%E5%8C%96))
+[RECURRENT NEURAL NETWORK REGULARIZATION](https://github.com/sysunyan1699/AIGC-Tutorials-For-Your/blob/main/RECURRENT-NEURAL-NETWORK-REGULARIZATION.md)
 
 
 # 30 research papers
