@@ -11,3 +11,6 @@
 
 [Andrej Karpathy,Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g)
 1. This is a 1 hour general-audience introduction to Large Language Models: the core technical component behind systems like ChatGPT, Claude, and Bard. What they are, where they are headed, comparisons and analogies to present-day operating systems, and some of the security-related challenges of this new computing paradigm.
+
+[Ilya sutskever's approx 30 research papers about AI](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)
+1. Ilya sutskever gave john carmack this reading list of approx 30 research papers and said, ‘If you really learn all of these, you’ll know 90% of what matters today.’
