@@ -12,7 +12,7 @@
 
 # 阅读记录
 
-[0-神经网络（Neural Networks）](obsidian://open?vault=Documents&file=second-brain%2F0-projects%2Filya%2027%E4%BE%BF%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%2F0-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%88Neural%20Networks%EF%BC%89)
+[0-神经网络（Neural Networks）](https://github.com/sysunyan1699/AIGC-Tutorials-For-Your/blob/main/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%88Neural-Networks%EF%BC%89.md)
 
 [递归神经网络（Recurrent Neural Networks, RNNs）](obsidian://open?vault=Documents&file=second-brain%2F0-projects%2Filya%2027%E4%BE%BF%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%2F2-%E9%80%92%E5%BD%92%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%88Recurrent%20Neural%20Networks%2C%20RNNs%EF%BC%89)
 
